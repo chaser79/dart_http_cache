@@ -22,6 +22,13 @@ workspace:
   - http_cache_sembast_store
   - http_cache_store_tester
 
+dependency_overrides:
+  isar_community_generator:
+    git:
+      url: https://github.com/isar-community/isar-community.git
+      ref: v3
+      path: packages/isar_community_generator
+
 #### MELOS section ####
 
 melos:
