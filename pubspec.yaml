@@ -9,25 +9,9 @@ dev_dependencies:
   melos: ^7.3.0
 
 workspace:
-  - dio_cache_interceptor
-  - dio_cache_interceptor/example
-  - http_cache_client
   - http_cache_core
-  - http_cache_drift_store
-  - http_cache_file_store
-  - http_cache_hive_store
-  - http_cache_isar_store
-  - http_cache_mmkv_store
   - http_cache_objectbox_store
-  - http_cache_sembast_store
   - http_cache_store_tester
-
-dependency_overrides:
-  isar_community_generator:
-    git:
-      url: https://github.com/isar-community/isar-community.git
-      ref: v3
-      path: packages/isar_community_generator
 
 #### MELOS section ####
 
